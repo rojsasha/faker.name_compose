@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FAKERNAME</string>
+    <string name="n">Введите номер \nпаспорта либо ПИН</string>
+    <string name="search">Поиск</string>
+    <string name="text">Миссия проекта - разоблачение мошенников и создание базы людей,\nкоторые обманули вас либо ваших знакомых,\nнедобросовестные сотрудники,\nподрядчики, и просто плохие люди. Мы огородим вас от этого!!! \n \nС faker name не один мошенник, аферист не обманет вас. Если у вас есть паспорт мошенника либо данные паспорта, внесите в конфиденциальную базу данных.</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="voity">Войти</string>
+    <string name="registr">Регистрация</string>
+    <string name="pass">Забыли пароль?</string>
+    <string name="zapomnit">Запомнить вход</string>
+    <string name="namber">Введите номер паспорта или ПИН</string>
+    <string name="works">У каждого человека есть паспорт, в котором указан ваш персональный номер (ПИН, номер паспорта) и оставьте комментарий о его поступке. Если же вы хотите нанять сотрудника, либо купить что-то, введите его персональный номер (ПИН, номер паспорта) и посмотрите отзывы об этом человеке.\n \nС faker name не один мошенник, аферист вас не обманет.</string>
+    <string name="addData">Введите номер паспорта либо ПИН</string>
+    <string name="send">Отправить</string>
+    <string name="positive">Положительный</string>
+    <string name="negative">Отрицательный</string>
+    <string name="countr">Выберите страну</string>
+</resources>
