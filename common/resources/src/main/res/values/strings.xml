@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">FAKERNAME</string>
+    <string name="n">Введите номер \nпаспорта либо ПИН</string>
+    <string name="search">Поиск</string>
+    <string name="text">Миссия проекта - разоблачение мошенников и создание базы людей,\nкоторые обманули вас либо ваших знакомых,\nнедобросовестные сотрудники,\nподрядчики, и просто плохие люди. Мы огородим вас от этого!!! \n \nС faker name не один мошенник, аферист не обманет вас. Если у вас есть паспорт мошенника либо данные паспорта, внесите в конфиденциальную базу данных.</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="voity">Войти</string>
+    <string name="registr">Регистрация</string>
+    <string name="pass">Забыли пароль?</string>
+    <string name="zapomnit">Запомнить вход</string>
+    <string name="namber">Введите номер паспорта или ПИН</string>
+    <string name="works">У каждого человека есть паспорт, в котором указан ваш персональный номер (ПИН, номер паспорта) и оставьте комментарий о его поступке. Если же вы хотите нанять сотрудника, либо купить что-то, введите его персональный номер (ПИН, номер паспорта) и посмотрите отзывы об этом человеке.\n \nС faker name не один мошенник, аферист вас не обманет.</string>
+    <string name="addData">Введите номер паспорта либо ПИН</string>
+    <string name="send">Отправить</string>
+    <string name="countr">Выберите страну</string>
+    <string name="name">Имя</string>
+    <string name="emailName">Email</string>
+    <string name="passwordName">Пароль</string>
+    <string name="repeatPass">Подтвердите пароль</string>
+    <string name="registration">Регистрация</string>
+    <string name="already_reg">Уже зарегистрированы?</string>
+    <string name="comments">Мои комментарии</string>
+    <string name="yana">YANA</string>
+    <string name="fio">ФИО</string>
+    <string name="emailFio">Email</string>
+    <string name="telephone">Телефон</string>
+    <string name="exit">Выйти</string>
+    <string name="inn">ИНН :</string>
+    <string name="test">Текст :</string>
+    <string name="data">Дата :</string>
+    <string name="positiveBtn">положительный</string>
+    <string name="delete">удалить</string>
+    <string name="edit">редактировать</string>
+    <string name="edit_comm">Редактирование комментария</string>
+    <string name="save">Сохранить</string>
+    <string name="negative">Отрицательный</string>
+    <string name="positive">Положительный</string>
+    <string name="country">Страна :</string>
+    <string name="opisanie">Описание :</string>
+    <string name="posit">Позитивные :</string>
+    <string name="negat">Негативные :</string>
+    <string name="forgotPasswordText">Забыли свой пароль? Без проблем. Просто сообщите нам свой адрес электроннной почты, и мы вышлем вам ссылку для сброса пароля, которая позволит вам выбрать новый.</string>
+    <string name="resetLink">Ссылка для сброса пароля</string>
+    <string name="emailEmpty">email пустой</string>
+    <string name="enterEmailCorrect">введите корректный email</string>
+    <string name="enterCountry">выберите страну</string>
+    <string name="enterPin">введите ПИН</string>
+    <string name="leaveComment">оставьте комментарий</string>
+    <string name="radioButton">radio button</string>
+    <string name="notSpecified">не указано</string>
+    <string name="confirmPassword">подтвердите пароль</string>
+
+
+
+
+    <string name="search_txt">Поиск</string>
+    <string name="registration_txt">Зарегистрироваться</string>
+    <string name="inn_or_pin">ИНН или ПИН</string>
+    <string name="main">Главная</string>
+    <string name="profile">Профиль</string>
+
+    <plurals name="empty_field_msg">
+        <item quantity="one">Пожалуйста, заполните обязательное поле:\u0020</item>
+        <item quantity="other">Пожалуйста, заполните обязательные поля:\u0020</item>
+    </plurals>
+</resources>
