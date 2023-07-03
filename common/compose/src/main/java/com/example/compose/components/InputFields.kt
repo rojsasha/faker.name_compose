@@ -20,11 +20,17 @@ import com.example.compose.R
 
 @Preview
 @Composable
-fun TransparentTextField(@StringRes label: Int = R.string.inn_or_pin) {
+fun TransparentTextField(
+    @StringRes label: Int = R.string.inn_or_pin,
+    input: (String) -> Unit = {}
+) {
     val text = remember { mutableStateOf(TextFieldValue("")) }
     OutlinedTextField(
         text.value,
-        { text.value = it },
+        {
+            text.value = it
+            input.invoke(it.text)
+        },
         label = { Text(text = stringResource(label)) },
         modifier = Modifier.fillMaxWidth(),
         textStyle = TextStyle(fontSize = 16.sp),
