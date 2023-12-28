@@ -1,6 +1,7 @@
 package com.example.search
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
@@ -8,6 +9,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -42,7 +44,7 @@ internal fun SearchScreen(viewModel: SearchViewModel) {
             Spacer(modifier = Modifier.padding(top = 20.dp))
             ExposedDropdownMenuBox1(viewState)
             Spacer(modifier = Modifier.padding(top = 32.dp))
-            TransparentTextField()
+            TransparentTextField(){}
             Spacer(modifier = Modifier.padding(top = 44.dp))
             BlackButton()
         }
@@ -52,9 +54,9 @@ internal fun SearchScreen(viewModel: SearchViewModel) {
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun ExposedDropdownMenuBox1(viewState: State<List<Countries>>) {
-    val options = listOf("first", "second", "third")//viewState.value.map { it.name }
+    val options = viewState.value.map { it.name }
     val expanded = remember { mutableStateOf(false) }
-    val selectedOptionText = remember { mutableStateOf(options[0]) }
+    val selectedOptionText = remember { mutableStateOf(options.firstOrNull()) }
     ExposedDropdownMenuBox(
         expanded = expanded.value,
         onExpandedChange = {
@@ -62,10 +64,8 @@ fun ExposedDropdownMenuBox1(viewState: State<List<Countries>>) {
         }
     ) {
         OutlinedTextField(
-            selectedOptionText.value ?: "",
+            selectedOptionText.value ?: "Выберите страну",
             { },
-
-
             modifier = Modifier.fillMaxWidth(),
             readOnly = true,
             textStyle = TextStyle(fontSize = 16.sp),
